@@ -1,0 +1,7 @@
+{
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "git.ignoreLimitWarning": true,
+  "python.analysis.extraPaths": [
+    "./AdventuresInMinecraft-Linux-master/MyAdventures"
+  ]
+}
