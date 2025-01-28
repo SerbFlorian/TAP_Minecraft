@@ -70,6 +70,6 @@ jobs:
         uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: SerbFlorian/MINECRAFT_DE_0_TAP
+          slug: SerbFlorian/TAP_MINECRAFT
           files: ./coverage.xml
           fail_ci_if_error: true

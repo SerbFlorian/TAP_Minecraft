@@ -1,4 +1,4 @@
-# MINECRAFT_DE_0_TAP
+# TAP_MINECRAFT
 
 ## .github/workflows
 
@@ -19,16 +19,16 @@
 
 Este proyecto se recomienda ejecutarlo desde la terminal de Visual Studio Code y utilizar la `Git bash`.
 
-- Una vez que estemos en `Git bash`, vamos a la ruta `Minecraft_de_0_TAP/AdventuresInMinecraft-Linux-master`, y ejecutamos el `./StartServer.py` de tal forma podremos acceder a nuestro mundo local de Minecraft y podremos jugar y ejecutar el test general de code coverage.
+- Una vez que estemos en `Git bash`, vamos a la ruta `TAP_MINECRAFT/AdventuresInMinecraft-Linux-master`, y ejecutamos el `./StartServer.py` de tal forma podremos acceder a nuestro mundo local de Minecraft y podremos jugar y ejecutar el test general de code coverage.
 - Seguidamente, abrimos otra dos terminales de `bash`, tal que podremos ejecutar el test general de codecov:
 - Una para ejecutar Pyro4.naming `python -m Pyro4.naming`
 - Una para ejecutar `botServer.py` para que se genere la URI y el test pueda conectarse de forma automática.
 
 ## Code coverage en local
 
-- Para ejecutar el codecov en local, desde la ruta `Minecraft_de_0_TAP`, ejecutamos este comando:
+- Para ejecutar el codecov en local, desde la ruta `TAP_MINECRAFT`, ejecutamos este comando:
   `pytest AdventuresInMinecraft-Linux-master/minecraft_agent_framework/tests/ --cov=AdventuresInMinecraft-Linux-master/minecraft_agent_framework --cov-report=xml`
 
 - Si queremos ejecutar un comando más al detalle, tipo solamente de un test\_ en específico,
-  primero nos ponemos en esta ruta: `cd MINECRAFT_DE_0_TAP/AdventuresInMinecraft-Linux-master/minecraft_agent_framework/`,
+  primero nos ponemos en esta ruta: `cd TAP_MINECRAFT/AdventuresInMinecraft-Linux-master/minecraft_agent_framework/`,
   podemos utilizar este comando: `pytest --cov=minecraft_agent_framework tests/test_ZombiBot.py`
