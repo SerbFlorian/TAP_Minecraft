@@ -30,5 +30,5 @@ Este proyecto se recomienda ejecutarlo desde la terminal de Visual Studio Code y
   `pytest AdventuresInMinecraft-Linux-master/minecraft_agent_framework/tests/ --cov=AdventuresInMinecraft-Linux-master/minecraft_agent_framework --cov-report=xml`
 
 - Si queremos ejecutar un comando más al detalle, tipo solamente de un test\_ en específico,
-  primero nos ponemos en esta ruta: `cd TAP_MINECRAFT/AdventuresInMinecraft-Linux-master/minecraft_agent_framework/`,
+  primero nos ponemos en esta ruta: `cd TAP_MINECRAFT/AdventuresInMinecraft-Linux-master/minecraft_agent_framework/`
   podemos utilizar este comando: `pytest --cov=minecraft_agent_framework tests/test_ZombiBot.py`
